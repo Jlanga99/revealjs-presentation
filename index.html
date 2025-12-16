@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Reveal.js Presentation</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Reveal.js core -->
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js/dist/reveal.css">
+  
+  <!-- Non-default theme -->
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js/dist/theme/solarized.css">
+
+  <!-- Code highlighting -->
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js/plugin/highlight/monokai.css">
+</head>
+
+<body>
+
+<div class="reveal">
+  <div class="slides">
+
+    <!-- Horizontal Slide 1 -->
+    <section>
+      <h1>My Reveal.js Presentation</h1>
+      <p>Created with Markdown & GitHub Pages</p>
+    </section>
+
+    <!-- Horizontal Slide 2 with vertical slides -->
+    <section>
+
+      <!-- Vertical Slide 2.1 -->
+      <section data-markdown>
+        <textarea data-template>
+### Slide 2.1 – Topic Overview
+
+- Reveal.js framework
+- Markdown slides
+- GitHub Pages hosting
+        </textarea>
+      </section>
+
+      <!-- Vertical Slide 2.2 -->
+      <section data-markdown>
+        <textarea data-template>
+### Slide 2.2 – Why Reveal.js?
+
+- Easy navigation
+- Clean design
+- Open-source
+        </textarea>
+      </section>
+
+    </section>
+
+    <!-- Horizontal Slide 3 -->
+    <section data-markdown>
+      <textarea data-template>
+### Slide 3 – Image Example
+
+![Reveal.js Logo](https://upload.wikimedia.org/wikipedia/commons/7/75/Reveal.js_logo.svg)
+      </textarea>
+    </section>
+
+    <!-- Horizontal Slide 4 -->
+    <section data-markdown>
+      <textarea data-template>
+### Slide 4 – Features
+
+- Horizontal navigation
+- Vertical navigation
+- Themes
+- Plugins
+      </textarea>
+    </section>
+
+    <!-- Horizontal Slide 5 -->
+    <section data-markdown>
+      <textarea data-template>
+### Slide 5 – Conclusion
+
+This presentation was built using:
+
+- Reveal.js
+- Markdown
+- GitHub Pages
+      </textarea>
+    </section>
+
+  </div>
+</div>
+
+<!-- Reveal.js scripts -->
+<script src="https://unpkg.com/reveal.js/dist/reveal.js"></script>
+<script src="https://unpkg.com/reveal.js/plugin/markdown/markdown.js"></script>
+<script src="https://unpkg.com/reveal.js/plugin/highlight/highlight.js"></script>
+
+<script>
+  Reveal.initialize({
+    hash: true,
+    plugins: [ RevealMarkdown, RevealHighlight ]
+  });
+</script>
+
+</body>
+</html>
